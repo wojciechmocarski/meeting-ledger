@@ -1,0 +1,45 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (if you add scripts/ in Python)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Node (for potential Mermaid -> PNG -> docx pipeline)
+node_modules/
+package-lock.json
+
+# Meeting recordings (media) - synced elsewhere, never versioned
+*.mp4
+*.mp3
+*.m4a
+*.vtt
+*.wav
+
+# Build / export artifacts
+_export/
+_build/
+*.docx
+*.pdf
+!_templates/**/*.docx
+!examples/**/*.docx
+
+# Sensitive data - NEVER commit client-specific content
+# Templates and placeholders are OK, real client data is NOT
+*-client-*.md
+*-prod-*.md
+*-confidential-*.md
+
+# Temporary
+.tmp/
+*.bak
+*.log
