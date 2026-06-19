@@ -1,0 +1,6 @@
+# meeting-ledger is a documentation / methodology framework, not a JS project.
+# GitHub excludes Markdown (prose) from language stats by default, which makes
+# the single helper script in scripts/ show up as "JavaScript 100%".
+# Force Markdown to count so the language bar reflects the repo's real substance.
+*.md linguist-detectable=true
+*.md linguist-documentation=false
