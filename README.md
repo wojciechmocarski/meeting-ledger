@@ -3,7 +3,7 @@
 > From scattered meeting material to a coherent, auditable project record - with any AI assistant.
 > Not another notetaker: structure first, AI second. MIT licensed - adapt to your own work.
 
-**Status:** initial structure (June 2026). Content under active development.
+**Status:** v1 - prompt templates, three worked example domains (IT, marketing, legal), docs and export scripts are in place. Iterated in the open.
 
 ---
 
